@@ -37,4 +37,4 @@ Raw CSVs → Python (pandas) → Cleaned DataFrames → Snowflake → Tableau
 - Average delivery time is 12 days with ~85% on-time rate nationally
 
 ## Files
-- `olist_pipeline.ipynb` — full ETL pipeline notebook
+- `Customer Data Pipeline.ipynb` — full ETL pipeline notebook
