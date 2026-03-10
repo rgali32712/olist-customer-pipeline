@@ -1,19 +1,23 @@
 # Olist Customer Analytics Pipeline
 
-End-to-end ETL pipeline that extracts, cleans, and transforms 96K+ Brazilian e-commerce orders, loads into Snowflake, and visualizes insights in Tableau.
+End-to-end ETL pipeline that extracts, cleans, and transforms 96K+ Brazilian 
+e-commerce orders and visualizes insights in Tableau.
 
 ## Dashboard
 [View Live Tableau Dashboard](https://public.tableau.com/shared/W4M2NYHCH)
 
+## Code
+[View Full Pipeline Notebook (Google Colab)](https://colab.research.google.com/drive/1hC441L1AwPbUfyMNnb0Hkc_QBFL0599m?usp=sharing)
+
 ## Project Overview
-Built a complete data pipeline using the [Kaggle Olist dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) to simulate a real-world customer reporting workflow.
+Built a complete data pipeline using the [Kaggle Olist dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 
+to simulate a real-world customer reporting workflow.
 
 ## Pipeline Architecture
-Raw CSVs → Python (pandas) → Cleaned DataFrames → Snowflake → Tableau
+Raw CSVs → Python (pandas) → Cleaned DataFrames → Exported CSVs → Tableau
 
 ## Tools & Technologies
 - **Python** (pandas) — data extraction, cleaning, transformation
-- **Snowflake** — cloud data warehouse for storing analytical tables
 - **Tableau Public** — interactive dashboard and reporting
 - **Google Colab** — development environment
 
@@ -28,7 +32,7 @@ Raw CSVs → Python (pandas) → Cleaned DataFrames → Snowflake → Tableau
 3. Resolved duplication from multi-payment orders by aggregating to order level
 4. Engineered features: delivery days, on-time status, order month/year
 5. Built 3 analytical summary tables: customer summary, monthly trends, state summary
-6. Loaded all 3 tables into Snowflake using snowflake-connector-python
+6. Exported cleaned datasets as CSVs and loaded directly into Tableau
 7. Connected Tableau to exported data and built 3-visual dashboard
 
 ## Key Findings
