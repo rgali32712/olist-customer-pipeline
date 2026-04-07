@@ -43,7 +43,7 @@ Raw CSVs → Python (pandas, NumPy) → EDA & Feature Engineering → scikit-lea
 2. Cleaned data — converted date columns, filtered undelivered orders, removed nulls
 3. Resolved duplication from multi-payment orders by aggregating to order level
 4. Conducted EDA and engineered features: delivery days, on-time status, order month/year
-5. Built 3 analytical summary tables: customer summary, monthly trends, state summary
+5. Built 3 analytical summary tables: order summary, monthly trends, state summary
 6. Loaded all 3 tables into Snowflake (OLIST_DB) using snowflake-connector-python
 7. Built late delivery classification model using Logistic Regression + Random Forest
 8. Exported CSVs and built interactive Tableau dashboard
