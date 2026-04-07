@@ -1,8 +1,18 @@
-# Customer Analytics Pipeline & ML Model
+# Supply Chain Analytics: Delivery Performance & Risk Prediction 
 
-End-to-end data science pipeline that extracts, cleans, and transforms 96K+ Brazilian 
-e-commerce orders, builds a late delivery classification model, loads into Snowflake, 
-and visualizes insights in Tableau.
+## Business Context
+Supply chain teams rely on data to answer one critical question: *will this order arrive on time?* 
+Late deliveries drive up costs, damage supplier relationships, and hurt customer satisfaction — 
+all key concerns for purchasing and operations teams.
+
+This project simulates a real-world supply chain analytics workflow — analyzing delivery 
+performance across 96K+ orders, predicting late shipments using machine learning, and surfacing 
+logistics inefficiencies by region and freight type. The pipeline mirrors tools and techniques 
+used in procurement and supply chain operations: ETL, predictive modeling, cloud data warehousing 
+(Snowflake), and executive dashboards (Tableau).
+
+Built to demonstrate end-to-end data engineering and supply chain analytics skills applicable 
+to sourcing, procurement, and operations roles.
 
 ## Dashboard
 [View Live Tableau Dashboard](https://public.tableau.com/shared/2M24HQPC8)
