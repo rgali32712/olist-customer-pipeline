@@ -62,4 +62,4 @@ Raw CSVs → Python (pandas, NumPy) → EDA & Feature Engineering → scikit-lea
 - Customer location (zip code) is the top predictor of late delivery
 
 ## Files
-- `Customer Data Pipeline.ipynb` — full ETL + ML pipeline notebook
+- `Supply_Chain_Delivery_Pipeline.ipynb` — full ETL + ML pipeline notebook
