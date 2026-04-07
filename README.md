@@ -21,8 +21,8 @@ to sourcing, procurement, and operations roles.
 [View Full Pipeline Notebook (Google Colab)](https://colab.research.google.com/drive/1hC441L1AwPbUfyMNnb0Hkc_QBFL0599m?usp=sharing)
 
 ## Project Overview
-Built a complete data science pipeline using the [Kaggle Olist dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 
-to simulate a real-world customer analytics and predictive modeling workflow.
+Built a complete end-to-end supply chain analytics pipeline using the Kaggle Olist Brazilian (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) E-Commerce Dataset to simulate real-world procurement and logistics workflows. The project covers the full data lifecycle — from raw data ingestion and cleaning, to predictive modeling and executive dashboard reporting — mirroring the analytical processes used by supply chain 
+and purchasing teams to monitor delivery performance, identify sourcing risks, and support data-driven operations decisions.
 
 ## Pipeline Architecture
 Raw CSVs → Python (pandas, NumPy) → EDA & Feature Engineering → scikit-learn ML Model → Snowflake → Tableau
